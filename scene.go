@@ -50,9 +50,6 @@ func listScenes() error {
 		if err != nil {
 			return err
 		}
-
-		fmt.Println("Scene List")
-		fmt.Println("===============")
 		for _, v := range resp.Scenes {
 			fmt.Println(v.Name)
 		}
