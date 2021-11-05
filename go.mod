@@ -1,4 +1,4 @@
-module github.com/muesli/obs-cli
+module github.com/sohumango/obs-cli
 
 go 1.13
 
